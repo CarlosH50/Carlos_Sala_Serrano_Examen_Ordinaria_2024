@@ -1,4 +1,4 @@
-package com.CarlosHugo_ExamenOrdinaria.Ejercicio_2.Modelos;
+package com.CarlosHugo_ExamenOrdinaria.Ejercicio_2_3.Modelos;
 
 import java.util.HashMap;
 import java.util.Map;

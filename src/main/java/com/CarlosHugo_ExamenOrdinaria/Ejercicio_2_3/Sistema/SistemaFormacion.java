@@ -1,8 +1,8 @@
-package com.CarlosHugo_ExamenOrdinaria.Ejercicio_2.Sistema;
+package com.CarlosHugo_ExamenOrdinaria.Ejercicio_2_3.Sistema;
 
-import com.CarlosHugo_ExamenOrdinaria.Ejercicio_2.Modelos.Asignatura;
-import com.CarlosHugo_ExamenOrdinaria.Ejercicio_2.Modelos.Curso;
-import com.CarlosHugo_ExamenOrdinaria.Ejercicio_2.Modelos.Empleado;
+import com.CarlosHugo_ExamenOrdinaria.Ejercicio_2_3.Modelos.Asignatura;
+import com.CarlosHugo_ExamenOrdinaria.Ejercicio_2_3.Modelos.Curso;
+import com.CarlosHugo_ExamenOrdinaria.Ejercicio_2_3.Modelos.Empleado;
 
 import java.util.ArrayList;
 import java.util.List;
