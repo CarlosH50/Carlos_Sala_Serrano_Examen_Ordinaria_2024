@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.CarlosHugo_ExamenOrdinaria.Ejercicio_1.GlamourFinancialController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Mercado:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="campoMercado" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <Label text="Precio:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="campoPrecio" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Button text="Actualizar Precio" fx:id="botonActualizar" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Label text="Número de Acciones:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="campoNumeroAcciones" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+    <Label text="Valor en Libros:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <TextField fx:id="campoValorEnLibros" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+    <Button text="Calcular Indicadores" fx:id="botonCalcular" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+    <Label fx:id="etiquetaValorMercado" text="Valor de Mercado: $" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+    <Label fx:id="etiquetaRelacionPrecioValorEnLibros" text="Relación Precio/Valor en Libros: " GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+</GridPane>
+
+
